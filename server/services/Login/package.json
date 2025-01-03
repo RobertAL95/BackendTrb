@@ -1,0 +1,38 @@
+{
+  "name": "login-service",
+  "version": "1.0.0",
+  "description": "Microservicio de login para la API bancaria",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.5.1",
+    "websocket": "^1.0.35",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "login",
+    "api",
+    "microservices",
+    "mongodb",
+    "express",
+    "jwt",
+    "bcrypt",
+    "websocket"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
